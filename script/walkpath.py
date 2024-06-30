@@ -175,5 +175,5 @@ if len(song) > 0:
         #     "artist": "BFC",
         #     "lrc_name": file.replace('.mp3','')
         # })
-print(edit_distance('爱是不嫉妒',"爱是不嫉妒"))
-    # print(songs2)
+# print(edit_distance('爱是不嫉妒',"爱是不嫉妒"))
+    print(songs2)
