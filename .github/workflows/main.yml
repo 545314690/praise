@@ -40,7 +40,7 @@ jobs:
             - name: Sync node version and insatll nodejs
               uses: actions/setup-node@v3
               with:
-                  node-version: 18
+                  node-version: 20
  
             # 使用 pnpm 作为包管理器
             - name: Install pnpm
@@ -74,8 +74,8 @@ jobs:
                   TAURI_KEY_PASSWORD: ${{ secrets.TAURI_KEY_PASSWORD }}
             
             - name: Tauri Action
-#              uses: tauri-apps/tauri-action@v0.3
-              uses: tauri-apps/tauri-action@v0.4
+              uses: tauri-apps/tauri-action@v0.3
+#              uses: tauri-apps/tauri-action@v0.4
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   TAURI_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
