@@ -1,0 +1,89 @@
+/* 定义字体 */
+@font-face{
+    font-family: 优设标题圆;
+    src: url("/fonts/优设标题圆.ttf");
+}
+@font-face{
+    font-family: 汉仪正圆;
+    src: url("/fonts/汉仪正圆-95.ttf");
+}
+.slidev-layout.cover h1{
+    text-align: left;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: "优设标题圆";
+    /*text-shadow: 2px 2px 0 #f96, -1px -1px 0 #f96 !important;*/
+    /*color: #ee7008;*/
+    /*text-shadow: 0 0 5px #FFFFFF, 0 0 5px #FFFFFF, 3px -1px 0px #FFFFFF, 0 0 0px #FFFFFF, 0 0 0px #FFFFFF;*/
+    text-shadow: 0 0 5px #ee7008, 0 0 5px #ee7008, 3px -1px 0px #ee7008, 0 0 0px #ee7008, 0 0 0px #ee7008;
+    /*text-shadow:*/
+    /*    0 0 10px #ff930e,*/
+    /*    0 0 20px #ff930e,*/
+    /*    0 0 50px #ff930e,*/
+    /*    0 0 100px #ff930e,*/
+    /*    0 0 200px #ff930e*/
+}
+pre{
+    text-align:left;
+    font-size: 2.8rem;
+    line-height: 1.5;
+    font-family: "优设标题圆";
+}
+
+.title-1{
+    text-align: center;
+    font-size: 10rem;
+    font-family: "优设标题圆";
+    /*text-shadow: 2px 2px 0 #f96, -1px -1px 0 #f96 !important;*/
+    color: #ff930e;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 5px -5px 0px #ffffff, 0 0 0px #ffffff, 0 0 0px #ffffff;
+    /*text-shadow: 0 0 10px #ff930e, 0 0 20px #ff930e, 5px -5px 0px #ff930e, 0 0 0px #ff930e, 0 0 0px #ff930e;*/
+    /*text-shadow:*/
+    /*        0 0 10px #ff930e,*/
+    /*        0 0 20px #ff930e,*/
+    /*        0 0 50px #ff930e,*/
+    /*        0 0 100px #ff930e,*/
+    /*        0 0 200px #ff930e*/
+}
+
+.title-2{
+    text-align: center;
+    font-size: 3rem;
+    line-height: 3;
+    font-family: "优设标题圆";
+}
+.content{
+    text-align: left;
+    font-size: 2rem;
+    font-family: "优设标题圆";
+}
+.content div{
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    /*line-height: 0;*/
+}
+
+.el-divider--horizontal {
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin: 12px 0;
+}
+.el-divider {
+    background-color: #dcdfe6;
+    position: relative;
+}
+
+.el-divider__text {
+    position: absolute;
+    background-color: #000000;
+    padding: 0 20px;
+    /*font-weight: 500;*/
+    color: white;
+    font-size: 10px;
+}
+.el-divider__text.is-left {
+    left: 20px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

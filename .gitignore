@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+dist
+*.local
+index.html
+.remote-assets
+components.d.ts
+.idea
+public/assets/media
+ban
+package-lock.json
+pnpm-lock.yaml
