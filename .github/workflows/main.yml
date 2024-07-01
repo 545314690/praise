@@ -47,7 +47,7 @@ jobs:
               uses: pnpm/action-setup@v2
               id: pnpm-install
               with:
-                  version: 8
+                  version: 9
                   run_install: false
  
             - name: Get pnpm store directory
@@ -65,16 +65,16 @@ jobs:
                       ${{ runner.os }}-pnpm-store-
  
             - name: Install app dependencies and build it
-              run: pnpm i && pnpm build
+#              run: pnpm i && pnpm build
 #              run: pnpm i && pnpm bundle
-#              run: pnpm i && tauri build
+              run: pnpm i && tauri build
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   TAURI_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
                   TAURI_KEY_PASSWORD: ${{ secrets.TAURI_KEY_PASSWORD }}
             
             - name: Tauri Action
-              uses: tauri-apps/tauri-action@v0
+              uses: tauri-apps/tauri-action@v0.3
 #              uses: tauri-apps/tauri-action@v0.4
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
