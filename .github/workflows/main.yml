@@ -65,7 +65,7 @@ jobs:
                       ${{ runner.os }}-pnpm-store-
  
             - name: Install app dependencies and build it
-              run: pnpm i && pnpm build
+              run: npm config set registry https://registry.npmmirror.com && pnpm i && pnpm build
 #              run: pnpm i
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
