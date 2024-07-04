@@ -65,8 +65,8 @@ jobs:
                       ${{ runner.os }}-pnpm-store-
  
             - name: Install app dependencies and build it
-              run: pnpm i && pnpm build
-#              run: pnpm i && tauri build
+#              run: pnpm i && pnpm build
+              run: pnpm i
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   TAURI_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
