@@ -41,8 +41,9 @@ jobs:
               uses: actions/setup-node@v3
               with:
                   node-version: 20
- 
-            # 使用 pnpm 作为包管理器
+              run: npm config set registry https://registry.npmmirror.com
+
+          # 使用 pnpm 作为包管理器
             - name: Install pnpm
               uses: pnpm/action-setup@v2
               id: pnpm-install
