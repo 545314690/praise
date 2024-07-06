@@ -7,8 +7,8 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "app",
-    "version": "0.1.0"
+    "productName": "赞美",
+    "version": "0.1.1"
   },
   "tauri": {
     "allowlist": {
@@ -52,9 +52,9 @@
       "csp": null
     },
     "updater": {
-      "active": false,
+      "active": true,
       "dialog": true,
-      "endpoints": ["https://zm.ysaw.top/updater/update.json"],
+      "endpoints": ["https://zm.ysaw.top/updater/praise/update.json"],
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEFGMkYyQ0E5RDk3RDdGNUIKUldSYmYzM1pxU3d2cjNKbjVnSlNGS2lLK1gwZnllZlA2aHA4bWh0MEtMb1JoSGJycGlaNXNpNWoK"
     },
     "windows": [
