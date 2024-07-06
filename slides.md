@@ -7,7 +7,7 @@ background: /images/1_1.jpeg
 # some information about your slides (markdown enabled)
 title: 1爱
 info: |
-  ## Slidev Starter Template
+  ## 爱是恒久忍耐又有恩慈
   BFC Praise
 # apply unocss classes to the current slide
 class: text-center
@@ -16,6 +16,10 @@ highlighter: shiki
 # https://sli.dev/guide/drawing
 drawings:
   persist: false
+# 控制幻灯片中的文本是否可以选择
+selectable: true
+# 启用幻灯片录制，可以是 boolean，'dev' 或者 'build'
+record: true
 # slide transition: https://sli.dev/guide/animations#slide-transitions
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/guide/syntax#mdc-syntax

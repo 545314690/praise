@@ -1,0 +1,23 @@
+{
+  "version": "v0.1.2",
+  "notes": "增加到更新322首",
+  "pub_date": "2024-06-18T19:25:57Z",
+  "platforms": {
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmYzM1pxU3d2cjVGM0pLZ2QzUTZoaTJ5ek9ydVREYUhwNlUyaTgrR3R5dW9MWEVJcmpiRUpUMzRUa0t2TWZobmd0c1dyNFZKVi9RdThodUhrUzVZZTZVWW5OUG5sMEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzIwMjQ0NTkyCWZpbGU6UHJhaXNlLmFwcC50YXIuZ3oKSDd2dVFrbzNkbU01R3Q0STAxcnFMdUFZNUY5Z3NJT01WT3NpSC82Qkl4bXk5UThHK2pPL0twQmg4Sk9iMHFSV0JKd09yVVJpQ3VBcHgzT2ZsTFZmQUE9PQo=",
+      "url": "https://lb.ysaw.top:9443/updater/praise/Praise.app.tar.gz"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmYzM1pxU3d2cjVGM0pLZ2QzUTZoaTJ5ek9ydVREYUhwNlUyaTgrR3R5dW9MWEVJcmpiRUpUMzRUa0t2TWZobmd0c1dyNFZKVi9RdThodUhrUzVZZTZVWW5OUG5sMEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzIwMjQ0NTkyCWZpbGU6UHJhaXNlLmFwcC50YXIuZ3oKSDd2dVFrbzNkbU01R3Q0STAxcnFMdUFZNUY5Z3NJT01WT3NpSC82Qkl4bXk5UThHK2pPL0twQmg4Sk9iMHFSV0JKd09yVVJpQ3VBcHgzT2ZsTFZmQUE9PQo=",
+      "url": "https://lb.ysaw.top:9443/updater/praise/Praise.app.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "Content of app.AppImage.tar.gz.sig",
+      "url": "https://lb.ysaw.top:9443/updater/praise/Praise_0.1.2_x64_en-US.msi.zip"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmYzM1pxU3d2cjRoc1FUb0xtR1dBZVhMM3hGVy8rWUhQc2wvODZzenJSNHNBOThITHhtK0ROZDd2S1N6dU8vL1g4UFhSUUI0UHBuQTJqQlBhYnpGT1hQMmFDNGI0T0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzIwMjQ1MDE3CWZpbGU6UHJhaXNlXzAuMS4yX3g2NF9lbi1VUy5tc2kuemlwClBkcCtnbXZrNStpRCtYaUtleE52SUxNZGdST2NNQkhtempxM3FYRWdkL1pheUp2QXJaRlBib0lhUm5sMjh3bUZBaSt0Q2l1VWN4Y3ZxaWlES3RYMkRRPT0K",
+      "url": "https://lb.ysaw.top:9443/updater/praise/Praise_0.1.2_x64_en-US.msi.zip"
+    }
+  }
+}
