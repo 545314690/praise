@@ -30,7 +30,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build -- --base /slidev-praise-v2/
+        run: npm run build -- --base /praisev2/
 
       - uses: actions/configure-pages@v4
 
