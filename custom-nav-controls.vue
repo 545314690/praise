@@ -77,4 +77,6 @@ export const showGotoDialog = ref(false)
       <svg width="24" height="24" viewBox="0 0 32 32"><path fill="#888888" d="M19 10h7v2h-7zm0 5h7v2h-7zm0 5h7v2h-7zM6 10h7v2H6zm0 5h7v2H6zm0 5h7v2H6z"/><path fill="currentColor" d="M28 5H4a2.002 2.002 0 0 0-2 2v18a2.002 2.002 0 0 0 2 2h24a2.002 2.002 0 0 0 2-2V7a2.002 2.002 0 0 0-2-2ZM4 7h11v18H4Zm13 18V7h11v18Z"/></svg>
     </button>
   </Link>
+<!--  <a href="https://lb.ysaw.top:8443">会议</a>-->
+<!--  <iframe allow="camera; microphone; fullscreen; display-capture; autoplay" src="https://lb.ysaw.top:8443/123" style="height: 100%; width: 100%; border: 0px;"></iframe>-->
 </template>
