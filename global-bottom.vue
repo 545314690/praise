@@ -469,6 +469,10 @@ export default {
     },
     changeOldNew(oldnew) {
       this.oldnew = oldnew
+      this.selectedScriptureId = 0
+      this.selectedChapter = 0
+      this.chapterList = []
+      this.resetVerseList()
     },
     runQuery(sql, params) {
       let stmt = this.DB.prepare(sql);
@@ -605,9 +609,9 @@ export default {
   }
 
   .scripture {
-    padding: 2px;
+    padding: 1px 3px;
     margin: 2px;
-    font-size: 5px;
+    font-size: 10px;
     color: white;
   }
 

@@ -5,6 +5,7 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: /images/1_1.jpeg
 # some information about your slides (markdown enabled)
+favicon: favicon.png
 title: 1爱
 info: |
   ## 爱是恒久忍耐又有恩慈
